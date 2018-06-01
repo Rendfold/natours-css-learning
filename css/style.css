@@ -37,17 +37,17 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
-.logo {
+.header__logo {
     height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     text-align: center;
     top: 40%;
@@ -62,7 +62,7 @@ body {
     margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -71,7 +71,7 @@ body {
     animation-duration: 2s;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -166,7 +166,7 @@ body {
     transition: all .4s;
 }
 
-.btn-animated {
+.btn--animated {
     animation-name: fromButtonToTop;
     animation-duration: 2s;
 }
@@ -176,11 +176,11 @@ body {
     opacity: 0;
 }
 
-.btn-white {
+.btn--white {
     background-color: #fff;
     color: #777;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
 }
